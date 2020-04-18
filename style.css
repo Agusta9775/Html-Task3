@@ -1,0 +1,108 @@
+*,
+    *::after,
+    *::before {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:dimgrey;
+     position: relative;
+     font-family: Helvetica;
+     text-align: center;
+}
+#main{
+    padding: 30px;
+    margin: 0px;
+    text-align: justify;
+}
+.img.smaller-image1{
+    text-align: center;
+    padding: 50px 0;
+    width: 100px;
+}
+#welcome-section {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.welcome-section--content {
+    padding-top: 0em;  
+    margin: 0 auto;
+    font-size: xx-large;
+}
+.form{
+    color: whitesmoke;
+    margin: auto;
+    padding: 0px;
+    border-radius: 20px 20px 20px 0;
+    text-align: center;
+    font-size: large; 
+}
+#Biodata{
+    padding: 30px;
+    margin: 0px;
+    margin-inline-start: 5px;
+}
+.heading{
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+    font-size: xx-large;
+}
+.Biodata-contents{
+    font-size: 20px; 
+    padding: 0px; 
+    width: 100%;
+    display: inline-block;
+    color: whitesmoke;
+    margin-top: 0px;
+}  
+#contact {
+    margin: 0;
+    width: 100%;
+   background-color: var(--clr-contact);
+    color: var(--clr-content);
+    padding: 0px;
+}
+
+.contact--content {
+    text-align: center;
+    padding: 140px;
+    width: 100%;
+}
+.contact--title {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.contact--heading {
+    font-size: xx-large;
+}
+.contact--content p {
+    font-size: var(--fs-a);
+}
+.facebook,.github,.twitter,.gmail,.whatsapp{
+    position: fixed;
+    width: 70px;
+    height: 20px;
+}
+#copyright {
+    display: flex;
+    justify-content: space-around;
+    color: var(--clr-content);
+    width: 100%;
+}
+.copyright--list-l {
+    list-style-type: none;
+    padding: 40px;
+    font-size: var(--fs-a);
+}
+
+@media (min-width: 320px) {
+    .copyright--list-l {
+        font-size: 15px;
+        padding: 15px;
+    }
+}
